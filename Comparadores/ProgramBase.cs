@@ -5,6 +5,6 @@ namespace Comparadores
     [DebuggerDisplay("{GetDebuggerDisplay(),nq}")]
     internal abstract class ProgramBase
     {
-        private abstract string GetDebuggerDisplay();
+        public abstract string GetDebuggerDisplay();
     }
 }
